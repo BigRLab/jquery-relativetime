@@ -9,6 +9,7 @@
 	$.fn.relativeTime = function(settings) {
 		var options = $.extend({
 			refresh: false, // or milliseconds
+			dataName: 'timestamp',
 			past: {
 				second: ['gerade eben'],
 				minute: ['vor einer Minute', 'vor {{value}} Minuten'],
@@ -73,7 +74,7 @@
 		function _refresh() {
 			objs.each(function() {
 				$(this).text(
-					_getRelativeTime($(this).data('relativetime'))
+					_getRelativeTime($(this).data(options.dataName))
 				);
 			});
 		}
