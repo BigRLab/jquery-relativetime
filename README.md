@@ -6,6 +6,7 @@ converts unix timestamps to relative times
 Examples
 ===================
 
+*English*
 * next monday at 10:42
 * tuesday at 10:42
 * yesterday at 10:42
@@ -13,6 +14,7 @@ Examples
 * before 2 hours
 * in 2 months
 
+*German*
 * nächsten Montag um 10:42
 * Dienstag um 10:42
 * gestern um 10:42
