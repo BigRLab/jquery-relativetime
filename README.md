@@ -19,4 +19,3 @@ Examples
 * vor einem Monat
 * vor 2 Stunden
 * in 2 Monaten
-
